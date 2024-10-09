@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1728434908 source:c:\users\4d43\documents\martin pulitano\programacion-1\pre parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

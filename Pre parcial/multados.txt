@@ -1,0 +1,25 @@
+21:43:29 Multado
+Vehiculo Tipo: auto
+Patentes: ABCD123DD
+Velocidad registrada 123km
+Estado multado
+21:43:42 Multado
+Vehiculo Tipo: moto
+Patentes: ADGG213FS
+Velocidad registrada 192km
+Estado multado
+21:43:59 Multado
+Vehiculo Tipo: camionWRDD244SD
+Patentes: WRDD244SD
+Velocidad registrada 207km
+Estado multado
+21:44:10 Multado
+Vehiculo Tipo: auto
+Patentes: ABCD123DD
+Velocidad registrada 155km
+Estado multado
+21:50:55 Multado
+Vehiculo Tipo: auto
+Patentes: ABCD123DD
+Velocidad registrada 107km
+Estado multado
