@@ -61,17 +61,17 @@ int main()
 
 void inserUltimo(Nodo** cabeza, Item elemento)
 {
-    Nodo * a = *cabeza;
-    Nodo * b = NULL;
+    Nodo* nuevo = crearNodo(elemento);
 
-    while(a == NULL){
-        b = a;
-        a = a->siguiente;
+    if (*cabeza == NULL) {
+        *cabeza = nuevo;
+    } else {
+        Nodo* a = *cabeza;
+        while (a->siguiente != NULL) {
+            a = a->siguiente;
+        }
+        a->siguiente = nuevo;
     }
-
-    Nodo * nuevo;
-    nuevo = crearNodo(elemento);
-    b->siguiente = nuevo;
 
     printf("\n\n");
 }
@@ -112,8 +112,7 @@ void devolverMaximo(Nodo** cabeza)
             }
             a = a->siguiente;
         }
-
-        printf("El entero mas grande ingresado es %d\n\n", max);
+        printf("\n\nEl entero mas grande ingresado es %d", max);
     }
     printf("\n\n");
 }
@@ -122,16 +121,16 @@ void devolverPromedio(Nodo** cabeza){
     Nodo * a = *cabeza;
 
     if(a != NULL){
-        int suma = 0;
-        suma += a->dato;
-        int len = 1.00;
+        float suma = 0;
+        int len = 0;
 
         while(a != NULL){
             suma += a->dato;
             len += 1;
+            a = a->siguiente;
         }
 
-        printf("El promedio de la lista es %f", suma / len);
+        printf("\n\nEl promedio de la lista es %f", suma / len);
     }
 
     printf("\n\n");
@@ -147,6 +146,12 @@ void eliminarEntero(Nodo ** cabeza)
     printf("\n\nIngrese el entero que desea eliminar: ");
     scanf("%d", &d);
 
+    while (a != NULL && a->dato == d) {
+        *cabeza = a->siguiente;
+        free(a);
+        a = *cabeza;
+    }
+
     while(a != NULL){
         if(a->dato == d){
             b->siguiente = a->siguiente;
@@ -155,5 +160,7 @@ void eliminarEntero(Nodo ** cabeza)
         b = a;
         a = a->siguiente;
     }
+
+    printf("\n");
 }
 
