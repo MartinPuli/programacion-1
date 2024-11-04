@@ -1,0 +1,11 @@
+
+
+Lista 1
+Nombre del Presidente: jua
+Nombre del Vice-Presidente: jiuan
+Votos: 0
+
+Lista 2
+Nombre del Presidente: dsa
+Nombre del Vice-Presidente: d
+Votos: 1

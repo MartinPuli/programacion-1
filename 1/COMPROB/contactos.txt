@@ -1,0 +1,10 @@
+Contacto 1
+Nombre: juan
+Telefono: 3
+Edad: 6886594
+
+Contacto 2
+Nombre: jas
+Telefono: 12
+Edad: 6886786
+

@@ -1,0 +1,18 @@
+Se agrego un producto
+Producto: juan
+Id: 9046
+Fecha: 231321
+Precio: $3.00
+
+Se agrego un producto
+Producto: predro
+Id: 3624
+Fecha: 213
+Precio: $321213.00
+
+Se agrego un producto
+Producto: sad
+Id: 9780
+Fecha: 0
+Precio: $321.00
+
